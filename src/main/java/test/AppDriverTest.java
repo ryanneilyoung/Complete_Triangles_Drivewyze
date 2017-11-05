@@ -1,6 +1,7 @@
 package test;
 
 import app.AppDriver;
+import app.PolygonHelper;
 import objects.EdgePoint;
 import objects.InnerPoint;
 import objects.Point;
@@ -80,12 +81,12 @@ public class AppDriverTest
 			new Triangle(exampleCompletePoints.get(3), exampleCompletePoints.get(0), exampleCompletePoints.get(4))
 	));
 
-	private AppDriver driver;
+	private PolygonHelper driver;
 
 	@Before
 	public void setUp() throws Exception
 	{
-		driver = new AppDriver();
+		driver = new PolygonHelper();
 	}
 
 	@Test
