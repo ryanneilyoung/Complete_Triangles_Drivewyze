@@ -69,4 +69,5 @@ All in all, this took me I’d say 3 hours for the code and then 3 hours of test
 If I could do this project again I would love to do it with an interactive display. My solution should work with any Polygon, so it would be a lot cooler if you could customize the polygon however you wanted.
 Given the same criteria, of just needing to solve this specific polygon, but with more of an emphasis on efficiency, this solution is a lot more involved than is entirely necessary. This could be done without recursion, and without custom objects. That being said, objects allow for safer data, and they make the code much easier to read.
 
-The code is run through the AppDriver class in the app package. I’d recommend importing this application into IntelleJ, and then running the AppDriver class through there as it will compile all of the necessary java files and dependencies. 
+Instalation Instructions:
+The code is run through the AppDriver class in the app package. I’d recommend importing this application into IntelleJ, and then running the AppDriver class through there as it will compile all of the necessary java files and dependencies. This application has a few dependencies for testing, so ensure that the maven build script is ran prior to running any of the tests.
