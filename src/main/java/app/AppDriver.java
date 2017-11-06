@@ -14,7 +14,7 @@ public class AppDriver
 	//The two files that contain the data for the Polygon
 	private final static String POINTS_FILE = "res/points.csv";
 	private final static String TRIANGLES_FILE = "res/triangles.csv";
-	
+
     public static void main(String args[])
     {
 		ArrayList<Point> points = new ArrayList<>();

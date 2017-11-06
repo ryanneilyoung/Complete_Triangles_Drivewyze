@@ -1,6 +1,5 @@
 package test;
 
-import app.AppDriver;
 import app.PolygonHelper;
 import objects.EdgePoint;
 import objects.InnerPoint;
@@ -324,7 +323,7 @@ public class AppDriverTest
 
 		triangles = driver.parseTriangles(triangles, bufferedReader, exampleWorkingPoints);
 
-		assertEquals("Lists arent the same", exampleWorkingTriangles, triangles);
+		assertEquals("Lists aren't the same", exampleWorkingTriangles, triangles);
 	}
 
 	@Test

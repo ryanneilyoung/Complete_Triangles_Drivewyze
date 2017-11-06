@@ -64,10 +64,17 @@ public class Triangle
     @Override
     public boolean equals(Object obj)
     {
-        Triangle other = (Triangle) obj;
+        if(obj instanceof Triangle)
+        {
+            Triangle other = (Triangle) obj;
 
-        return this.sideOne == other.getSideOne()
-                && this.sideTwo == other.getSideTwo()
-                && this.sideThree == other.getSideThree();
+            return this.sideOne == other.getSideOne()
+                    && this.sideTwo == other.getSideTwo()
+                    && this.sideThree == other.getSideThree();
+        }
+        else
+        {
+            return false;
+        }
     }
 }
